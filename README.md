@@ -10,10 +10,12 @@ You probably also want to:
 pip install pyqt5
 
 And then, in order to plot straight to your notebook while your network is training, add a cell with this code in your notebook:
+```
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('Qt5Agg')
 %matplotlib inline
+```
 
 Enjoy!
 
