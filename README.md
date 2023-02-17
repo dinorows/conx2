@@ -1,7 +1,7 @@
 # conx2
 conx is a small neural network library at https://github.com/ArtificialIntelligenceToolkit/conx that stopped working when keras got absorbed into tensorflow. 
 
-So I cloned it and fixed it. All you need to do is to `pip install tensorflow` after you pip install from github like so:
+So I cloned it and fixed it. All you need to do is to `pip install tensorflow` after you pip install conx2 from github like so:
 ```
 python -m pip install git+https://github.com/dinorows/conx2
 ```
