@@ -28,4 +28,6 @@ matplotlib.use('Qt5Agg')
 %matplotlib inline
 ```
 
+Make sure to run your notebook within your new environment by switching to your `conx2` kernel.
+
 Enjoy!
