@@ -30,4 +30,9 @@ matplotlib.use('Qt5Agg')
 
 Make sure to run your notebook within your new environment by switching to your `conx2` kernel.
 
-Enjoy!
+Other than that, your old conx-based python notebooks should not need to be modified at all. In other words, import `conx`, not `conx2:
+```
+import conx as cx
+```
+
+and keep on computing!
