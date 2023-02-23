@@ -13,22 +13,22 @@ with io.open('conx/_version.py', encoding='utf-8') as fid:
             version = line.strip().split()[-1][1:-1]
             break
 
-with io.open('README.md', encoding='utf-8') as fp:
-    long_desc = fp.read()
-    if pypandoc is not None:
-        try:
-            long_desc = pypandoc.convert(long_desc, "rst", "markdown_github")
-        except:
-            pass
+#with io.open('README.md', encoding='utf-8') as fp:
+#    long_desc = fp.read()
+#    if pypandoc is not None:
+#        try:
+#            long_desc = pypandoc.convert(long_desc, "rst", "markdown_github")
+#        except:
+#            pass
 
 
-setup(name='conx',
+setup(name='conx2',
       version=version,
-      description='On-Ramp to Deep Learning. Built on Keras',
+      description='patch to conx',
       long_description=long_desc,
-      author='Douglas S. Blank',
-      author_email='doug.blank@gmail.com',
-      url='https://github.com/Calysto/conx',
+      author='Dino K',
+      author_email='dinorows@gmail.com',
+      url='https://github.com/conx2',
       install_requires=['numpy', 'keras>=2.1.3', 'matplotlib',
                         'ipywidgets>=7.0', 'Pillow', 'IPython',
                         'h5py', "svgwrite", "sklearn",
