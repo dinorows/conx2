@@ -1,0 +1,13 @@
+IPython
+Pillow
+cairosvg
+h5py
+ipywidgets>=7.0
+keras>=2.1.3
+matplotlib
+numpy
+pydot
+requests
+sklearn
+svgwrite
+tqdm
