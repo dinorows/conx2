@@ -1,5 +1,0 @@
-include *.md
-include LICENSE
-prune .git
-prune dist
-prune build
