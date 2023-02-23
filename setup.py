@@ -13,13 +13,13 @@ with io.open('conx/_version.py', encoding='utf-8') as fid:
             version = line.strip().split()[-1][1:-1]
             break
 
-#with io.open('README.md', encoding='utf-8') as fp:
-#    long_desc = fp.read()
-#    if pypandoc is not None:
-#        try:
-#            long_desc = pypandoc.convert(long_desc, "rst", "markdown_github")
-#        except:
-#            pass
+with io.open('README.md', encoding='utf-8') as fp:
+    long_desc = fp.read()
+    if pypandoc is not None:
+        try:
+            long_desc = pypandoc.convert(long_desc, "rst", "markdown_github")
+        except:
+            pass
 
 
 setup(name='conx2',
