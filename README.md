@@ -3,6 +3,8 @@ conx is a small neural network library at https://github.com/ArtificialIntellige
 
 So I cloned it and fixed it. But you will need a python 3.7 based distribution.
 
+If you have an Apple "M" chip, this may be a problem because you will not be able to use a python 3.7 distribution with tensorflow. I plan to fix this problem in the future. For now, please run on Windows or Mac with Intel chips and use python 3.7-based environment.
+
 All you need to do is to create a new python 3.7-based environment called `conx2` (or anything else you wish), either through anaconda navigator or in an anaconda shell with `conda create -n conx2 python=3.7`. 
 
 Then, open an anaconda shell and activate that environment with `conda activate conx2`, followed by pip-installing conx2 from github like so:
